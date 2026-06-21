@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ادیب | توسعه‌دهنده وب</title>
+    <!-- فونت فارسی وزیرمتن از گوگل -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- فونت آیکون (آپشنال برای زیبایی) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body dir="auto">
+    <!-- نوار پیشرفت اسکرول -->
+    <div class="scroll-progress"></div>
+
+    <!-- دکمه تغییر تم -->
+    <button class="theme-toggle" id="themeToggle" aria-label="تغییر تم">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- ناوبری -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo" dir="ltr">محمد ادیب <span class="dot"> محمدی </span></a>
+            <button class="nav-toggle" aria-label="منو">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#about">درباره من</a></li>
+                <li><a href="#skills">مهارت‌ها</a></li>
+                <li><a href="#projects">پروژه‌ها</a></li>
+                <li><a href="#certificates">گواهینامه‌ها</a></li>
+                <li><a href="#contact">تماس</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- هیرو -->
+    <header class="hero">
+        <div class="hero-content">
+            <span class="greeting">سلام، من</span>
+            <h1 class="hero-title"> ادیب محمدی هستم </h1>
+            <p class="hero-subtitle">
+                <span id="typed"></span><span class="cursor">|</span>
+            </p>
+            <p class="hero-text">ادیب، شاه‌کد ترکمن‌صحرا.
+
+                نوجوان ۱۵ ساله‌ای که مسیرش را با اراده و کد می‌سازد.
+
+                در حال تبدیل خلاقیت به پروژه‌های واقعی؛
+
+                از طراحی وب‌سایت تا ساخت بازی و تجربه‌های دیجیتال.
+
+                نه برای دیده شدن،
+
+                برای قوی‌تر شدن.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">مشاهده نمونه کارها</a>
+                <a href="#contact" class="btn btn-outline">تماس با من</a>
+            </div>
+        </div>
+        <div class="hero-graphic">
+            <div class="code-icon">&lt;/&gt;</div>
+        </div>
+    </header>
+
+    <!-- درباره من -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">درباره من</h2>
+            <div class="about-grid">
+                <div class="about-img">
+                    <div class="img-placeholder">
+                        <!-- <i class="fas fa-user"></i> -->
+                        <img src="./assets/76cf788d-5b36-422b-ab95-fae878773a6b.png" style="border-radius: 100px;" alt="">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        من محمد ادیب هستم ، یه برنامه نویس 15 ساله تکاور از دل ترکمن صحرا . برنامه نویسی رو از بچگی با
+                        اسکرچ و پایه وب شروع کردم و الانم با Html , Css , JavaScript , Bootrap , Php , Mysql در حوزه وب
+                        سایت فعالیت میکنم. به دنیای بازی‌سازی هم علاقه دارم و با یونیتی کار می‌کنم. همیشه دنبال یادگیری
+                        تکنولوژی‌های جدیدم و دوست دارم با تیم‌های حرفه‌ای همکاری کنم.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>ایران</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-calendar"></i>
+                            <span>۱۵ سال</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-code"></i>
+                            <span>توسعه‌دهنده وب</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- نکته ! -->
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title" style="
+    color: rgb(206 132 57 / 68%);
+    text-shadow: -1px 2px 5px #caafaf82;">نکته جالب</h2>
+            <div class="about-grid">
+                <div class="about-img">
+                    <div class="img-placeholder">
+                        <!-- <i class="fas fa-user"></i> -->
+                        <img src="./assets/1774351999936.jpg" style="border-radius: 100px; width: 97%;" alt="">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        من درحالت ساخت و کار روی یک استارتاپ و برنامه بسیار جالب و کاربردی به نام <span style="color: rgb(78, 151, 194); font-size: large; font-family: vazir;
+                        font-weight: bold;"> نوبینو </span>هست .
+                        این استارتاپ به مدیریت زمان و کمرت هدر دادن وقتتون کمک میکنه برای مشاهده دمو نسخه اولیه و
+                        توضیحات بیشتر به لینک زیر مراجعه کنید .
+                        <!-- <br> -->
+                        <a href="https://aivarzan.ir/Nobino/" style="
+    text-decoration: none;
+    color: #ffd873f7;
+    text-shadow: 0px 2px 4px #ffffffa8;">
+
+                            <h3>
+                                <span>
+
+                                    مشاهده دمو
+                                </span>
+                            </h3>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- مهارت‌ها -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">مهارت‌های من</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML</h4>
+                    <div class="skill-bar"><span style="width:100%"></span></div>
+                    <small>حرفه ایی</small>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS</h4>
+                    <div class="skill-bar"><span style="width:100%"></span></div>
+                    <small>حرفه ایی</small>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-bootstrap" style="color: #6c63ff;"></i>
+                    <h4>Bootstarp</h4>
+                    <div class="skill-bar"><span style="width:90%"></span></div>
+                    <small>حرفه ایی</small>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-brands fa-figma" style="color: #6c63ff;"></i>
+                    <h4>Figma</h4>
+                    <div class="skill-bar"><span style="width:90%"></span></div>
+                    <small>حرفه ایی</small>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                    <div class="skill-bar"><span style="width:60%"></span></div>
+                    <small>مبتدی</small>
+                </div>
+
+                <div class="skill-card">
+                    <h3 style="font-weight: bold; font-size: large; color: #6c63ff;"> C# </h3>
+                    <h4>زبان برنامه نویسی سی شارپ</h4>
+                    <div class="skill-bar"><span style="width:65%"></span></div>
+                    <small>متوسط</small>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fab fa-php"></i>
+                    <h4>PHP</h4>
+                    <div class="skill-bar"><span style="width:70%"></span></div>
+                    <small>متوسط</small>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h4>MySQL</h4>
+                    <div class="skill-bar"><span style="width:89%"></span></div>
+                    <small>تقریبا حرفه ایی</small>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-unity"></i>
+                    <h4>Unity</h4>
+                    <div class="skill-bar"><span style="width:50%"></span></div>
+                    <small>متوسط</small>
+                </div>
+                
+                <div class="skill-card">
+                    <h3 style="font-weight: bold; font-size: large; color: #6c63ff;"> Excel</h3>
+                    <h4>برنامه اکسل </h4>
+                    <div class="skill-bar"><span style="width:65%"></span></div>
+                    <small>متوسط</small>
+                </div>
+
+                
+                <div class="skill-card">
+                    <h3 style="font-weight: bold; font-size: large; color: #6c63ff;"> PowerP    oint</h3>
+                    <h4>برنامه پاورپوینت </h4>
+                    <div class="skill-bar"><span style="width:65%"></span></div>
+                    <small>متوسط</small>
+                </div>
+                
+                <div class="skill-card">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h4>Scratch</h4>
+                    <div class="skill-bar"><span style="width:100%"></span></div>
+                    <small>حرفه ایی</small>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h4>Git</h4>
+                    <div class="skill-bar"><span style="width:55%"></span></div>
+                    <small>مبتدی</small>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fa-brands fa-searchengin" style="color: #6c63ff;"></i>
+                    <h4>Seo</h4>
+                    <div class="skill-bar"><span style="width:55%"></span></div>
+                    <small>مبتدی</small>
+                </div>
+
+                <div class="skill-card">
+                    <h3 style="font-weight: bold; font-size: large; color: #6c63ff;"> Soft skills</h3>
+                    <h4>مهارت های نرم</h4>
+                    <div class="skill-bar"><span style="width:65%"></span></div>
+                    <small>متوسط</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- پروژه‌ها -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">پروژه‌های من</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">همه</button>
+                <button class="filter-btn" data-filter="web">وب</button>
+                <button class="filter-btn" data-filter="game">بازی</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img" style="
+    background: linear-gradient(45deg, #2e3851, transparent);">
+                        <span>مدیریت وظایف</span>
+                    </div>
+                    <h3>برنامه مدیریت وظایف</h3>
+                    <p>یک اپلیکیشن وب برای مدیریت کارهای روزانه با قابلیت ثبت‌نام، دسته‌بندی و تاریخ سررسید.</p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <span>احراز هویت</span>
+                    </div>
+                    <h3>سیستم احراز هویت</h3>
+                    <p>سیستم ورود و ثبت‌نام امن با هش کردن رمز عبور و مدیریت نشست با PHP و MySQL.</p>
+                    <div class="project-tech">
+                        <span>PHP</span><span>MySQL</span><span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <span>وبلاگ شخصی</span>
+                    </div>
+                    <h3>وبلاگ شخصی</h3>
+                    <p>یک وبلاگ واکنش‌گرا برای اشتراک‌گذاری تجربیات برنامه‌نویسی با HTML، CSS و کمی JS.</p>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="game">
+                    <div class="project-img">
+                        <span>بازی پرشی</span>
+                    </div>
+                    <h3>بازی پرشی دوبعدی</h3>
+                    <p>یک بازی ساده پلتفرمر ساخته‌شده با یونیتی و سی‌شارپ برای یادگیری فیزیک و اسکریپتینگ.</p>
+                    <div class="project-tech">
+                        <span>Unity</span><span>C#</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- گواهینامه‌ها -->
+    <section id="certificates" class="section certificates">
+        <div class="container">
+            <h2 class="section-title">گواهینامه‌ها</h2>
+            <div class="certificates-grid">
+                
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> Exsel</h4>
+                    <p>Maktap khone (2020)</p>
+                </div> 
+
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> PowerPoint</h4>
+                    <p>Maktap khone (2020)</p>
+                </div> 
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> Word</h4>
+                    <p>Maktap khone (2020)</p>
+                </div> 
+
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> Photoshap</h4>
+                    <p>Maktap khone (2021)</p>
+                </div> 
+
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> Scratch</h4>
+                    <p>Sama Aryanek (2022)</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>Html & Css مقدماتی</h4>
+                    <p>Aiolearn (2023)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>Html & Css پیشرفته</h4>
+                    <p>Aiolearn (2023)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> JavaScript پیشرفته</h4>
+                    <p>Aiolearn (2023)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>JavaScript مقدماتی</h4>
+                    <p>Aiolearn (2023)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>سخت افزار و سرور</h4>
+                    <p>Aiolearn (2024)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>Wordpress حرفه ایی</h4>
+                    <p>Aiolearn (2024)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>دیتابیس حرفه ایی</h4>
+                    <p>Aiolearn (2025)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> PHP</h4>
+                    <p>Aiolearn (2025)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> Sql</h4>
+                    <p>Aiolearn (2025)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4> Mysql</h4>
+                    <p>Aiolearn (2025)</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>بازی سازی با یونیتی</h4>
+                    <p>اکادمی آسان یونیتی (2025)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تماس -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">تماس با من</h2>
+            <p>اگر پروژه‌ای داری یا می‌خوای همکاری کنی، خوشحال می‌شم پیام بدی.</p>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="نام" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="ایمیل" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="پیام شما..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">ارسال پیام</button>
+                <p class="form-feedback" id="formFeedback"></p>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/adib-dev" target="_blank" class="social-icon"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:adib@example.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer>
+        <p>ساخته شده با ❤️ توسط ادیب | ۲۰۲۵</p>
+    </footer>
+
+    <!-- دکمه برگشت به بالا -->
+    <button class="back-to-top" id="backToTop" aria-label="برگشت به بالا">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
